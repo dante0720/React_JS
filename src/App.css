@@ -1,0 +1,520 @@
+.T1{
+  text-align: right;
+  color: #0B7FCE;
+  height: 400px;
+  border-width: 1px;
+  padding-right: 34%; 
+  transform: translateY(35%);
+
+}
+
+.T2{
+  text-align: right;
+  color: black;
+  border-width: 1px;
+  padding-right: 20%;
+  transform: translateY(-780%);
+}
+
+
+.linea{
+  width:5px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:70vh;
+  transform: translateY(-100%); 
+}
+
+
+.linea2{
+  height: 5px;
+  background-color: #0078d7; 
+  width: 400px;
+  margin-top: -880px;
+  transform: translateX(205%);
+  
+}
+
+.App-img1{
+  position: absolute;
+  bottom: 500px; 
+  left: 150px;   
+  width: 400px;  
+  height: 80px;
+}
+  
+.App-img2{
+  position: absolute;
+  bottom: 20px;  
+  right: 20px;   
+  width: 100px;  
+  height: auto;
+}
+
+.centrado-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  width: 100%; 
+}
+
+.centrado {
+  width: 1280px;
+  height: 50px;
+  background-color: #0B7FCE;
+}
+
+.centrado2 {
+  position: absolute;
+  right: 40px;
+  width: 120px;
+  height: 50px;
+  background-color: #0B7FCE;
+}
+
+.boton{
+  position: relative;
+  right: -980px;
+  bottom: 200px;
+  width: 150px;
+  color: white;
+  background: #0B7FCE;
+  border-radius: 5px;
+  border:10px;
+  transform: translateY(350%);
+
+}
+
+.IdPatrulla{
+  position: absolute;
+  font-size: 20px;
+  right: 25%;    
+  top: 50%;             
+  transform: translateY(7%);
+  width: 250px;         
+  height: 400px;
+  input {
+    height: 40px;
+    width: 350px; 
+    border-radius: 5px;
+}    
+  
+}
+
+.Cuadrante {
+  position: absolute;
+  font-size: 20px;
+  right: 25%;            
+  top: 50%;             
+  transform: translateY(10%);
+  width: 250px;         
+  height: 800px;  
+  input {
+    height: 40px;
+    width: 350px;
+    border-radius: 5px; /* Ajusta la altura del campo */
+}          
+  
+}
+
+.cuadroFondo{
+  width: 450px; 
+  height: 140px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top:-130px;
+  transform:translateX(820px);
+  border-radius: 5px;
+
+}
+
+
+/*--------------------------------------Segunda pagina--------------------------------------------*/
+
+
+.Pg2-centrado-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  width: 100%; 
+}
+
+.Pg2-centrado {
+  width: 1280px;
+  height: 50px;
+  background-color: #0B7FCE;
+  transform:translatey(500px);
+}
+
+.Pg2-centrado2 {
+  position: absolute;
+  right: 40px;
+  width: 120px;
+  height: 50px;
+  background-color: #0B7FCE;
+  transform:translatey(500px);
+}
+
+.cuadroFondo2{
+  width: 260px; 
+  height: 600px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top:540px;
+  transform:translatex(20px);
+  border-radius: 15px;
+
+}
+
+.cuadroBlanco{
+  width: 1150px; 
+  height: 600px; 
+  border: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #0078d7 ; 
+  position: absolute;
+  top:890px;
+  transform:translatex(310px);
+  border-radius: 15px;
+}
+
+.App1-img1{
+  cursor: all-scroll;
+  position: absolute;
+  bottom: 500px; 
+  left: 650px;   
+  opacity:0.2;
+  transform:translateY(1215px);
+}
+
+.App2-img2{
+  position: absolute;
+  bottom: 20px;  
+  right: 70px;   
+  width: 100px;  
+  transform:translateY(760px);
+  height: auto;
+}
+
+.botonC1-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(251px);
+}
+
+.botonC2-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(304px);
+}
+.botonC3-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(354px);
+}
+.botonC4-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(404px);
+}
+
+.Txt-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-5170%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+ 
+
+}
+.Txt-2-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-5030%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+}
+.Txt-3-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-4910%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+  
+}
+.Txt-4-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-4790%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+
+
+
+/*--------------------------------------Tercera pagina--------------------------------------------*/
+
+
+
+
+
+.Pg3-centrado-container {
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start;
+  width: 100%; 
+}
+
+.Pg3-centrado {
+  width: 1280px;
+  height: 50px;
+  background-color: #0B7FCE;
+  transform:translatey(600px);
+}
+
+.Pg3-centrado2 {
+  position: absolute;
+  right: 40px;
+  width: 120px;
+  height: 50px;
+  background-color: #0B7FCE;
+  transform:translatey(600px);
+}
+
+.CuadroBlanco{
+  width: 1150px; 
+  height: 600px; 
+  border: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid #0078d7 ; 
+  position: absolute;
+  top:1645px;
+  transform:translatex(310px);
+  border-radius: 15px;
+}
+
+.CuadroFondo2{
+  width: 260px; 
+  height: 600px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top:645px;
+  transform:translatex(20px);
+  border-radius: 15px;
+
+}
+
+
+.App3-img1{
+  cursor: all-scroll;
+  position: absolute;
+  bottom: 500px; 
+  left: 650px;   
+  opacity:0.2;
+  transform:translateY(1975px);
+}
+
+.App3-img2{
+  position: absolute;
+  bottom: 20px;  
+  right: 70px;   
+  width: 100px;  
+  transform:translateY(1535px);
+  height: auto;
+  opacity:0.2;
+}
+
+.BotonC1-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(1040px);
+}
+
+.BotonC2-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(1095px);
+}
+.BotonC3-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(1150px);
+}
+.BotonC4-img3{
+  position: absolute;
+  bottom: 20px;  
+  left:80px;    
+  background-color: #0078d7;
+  transform:translateY(1200px);
+}
+
+.Txt3-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-3210%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.Txt3-2-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-3055%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Txt3-3-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-2920%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+.Txt3-4-img3{
+  position: absolute;
+  bottom: -2315px;     
+  left: 130px;
+  transform: translateY(-2800%);
+  font-size: 100%;
+  color:rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.marco1{
+  right: -385px;
+  width: 1000px; 
+  height: 540px; 
+  background-color: #0B7FCE;
+  position: relative;
+  top: 100px;
+  transform:translatey(-18px);
+  border-radius: 30px;
+  border-color:#0B7FCE;
+  background-color: transparent;
+  border: 2px solid #0B7FCE; 
+}
+
+
+.Tabla {
+  position: relative;
+  right: 102px;
+  display: flex;
+  justify-content:right; 
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 8px; 
+  transform:translatey(-480px);
+
+
+}
+table {
+  width: 68%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  border: 1px solid black; /* Lineas que separan las columnas */
+  background-color: #606060; 
+  color: white; 
+  font-size: 18px;
+  font-weight: bold;
+  padding: 10px; 
+}
+
+/* .linea3{
+  position: relative;
+  right: 299px;
+  top: -1680px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:65vh;
+}
+
+.linea4{
+  position: relative;
+  right: 85px;
+  top: -2160px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:65vh;
+}
+
+.linea5{
+  position: relative;
+  right: -127px;
+  top: -2640px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:65vh;
+}
+
+.linea6{
+  position: relative;
+  right: -369px;
+  top: -3120px;
+  width:2px;
+  height:5px;
+  background-color: #0B7FCE;
+  margin:auto;
+  height:65vh;
+}
+
+.linea7{
+  position: relative;
+  right: -444px;
+  top: -3181px;
+  height:2px; 
+  background-color: #0078d7; 
+  width: 500px;
+  margin-top: -420px;
+  transform: translateX(10%);
+}
+
+.linea8{
+  position: relative;
+  right: -612px;
+  top: -2763px;
+  height:2px; 
+  background-color: #0078d7; 
+  width: 500px;
+  margin-top: -420px;
+  transform: translateX(10%);
+} */
